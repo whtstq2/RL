@@ -7,10 +7,11 @@
 likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.
 우리가 흔히 보는 Maximum likelihood는 이 likelihood가 가장 높은 것을 택한다는 판단 기준이다.
 
+오래된 가설이 있다고 치자 그런데 새로운 증거가 나타났다. 그래서 
 
 출처: http://www.aistudy.com/math/likelihood.htm
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDIxOTM1OSwtMTY4NjQ5MDU4NywtMz
-Y4ODE2MzY2XX0=
+eyJoaXN0b3J5IjpbMTM0MzQ4ODYyNiwxMzIwMjE5MzU5LC0xNj
+g2NDkwNTg3LC0zNjg4MTYzNjZdfQ==
 -->

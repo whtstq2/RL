@@ -11,7 +11,12 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.
 
 가설의 불확실성을 평가하기 위해 흔히 사용되는 Bayes' Theory에서는 이전 확률에 새로운 사건을 더해 다음 확률을 만든다. 그런데 이전 확률 즉, 베이스 가설에는 자의성이 들어갈 수 밖에 없는데 (모든 가설의 시작은 휴리스틱할 수 밖에 없다) 아예 배제 할 수는 없겠지만 최대한 줄이기 위해 우도를 사용한다. 
 
+관찰치를 얻을 확률을 최대화하는 모수의 값 
+
 이걸 우리가 배우는 머신러닝의 경우로 대입 해보자면 한 함수가 있다. 여러 파라미터들로 이루어진 함수이다. 그 상황에서 우린 파라미터가 (1,2,3,4,5,6...)일 때 데이터를 가장 잘 표현한다고 생각하고 함수를 만들었다. 그랬을 때 
+
+## Likelihood ratio
+likelihood의 비 
 
 ## 여기서 잠시,
 여기서 잠시, 확률은 [정문제](https://terms.naver.com/entry.nhn?docId=393305&ref=y)와 관련된 반면 likelihood은 [역문제](https://terms.naver.com/entry.nhn?docId=395229&ref=y)와 관련되어 있다. 확률은 무엇무엇 조건이 있을 때 사건이 있을 가능성이라면 likelihood는 사건이 일어났을 때 어떤 가설에 의한 것일 가능성인 것이다.
@@ -25,6 +30,7 @@ Log Likelihood는 likelihood 계산을 쉽게 하기 위함이다.
 출처: http://www.aistudy.com/math/likelihood.htm
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODc5ODM4OSwtMTM2MTc2NDY3OSwxMz
-IwMjE5MzU5LC0xNjg2NDkwNTg3LC0zNjg4MTYzNjZdfQ==
+eyJoaXN0b3J5IjpbLTIwMjgxMDExNzgsLTcwODc5ODM4OSwtMT
+M2MTc2NDY3OSwxMzIwMjE5MzU5LC0xNjg2NDkwNTg3LC0zNjg4
+MTYzNjZdfQ==
 -->

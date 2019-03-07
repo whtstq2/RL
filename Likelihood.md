@@ -23,6 +23,9 @@ likelihood의 비
 
 ## Log Likelihood
 Log Likelihood는 likelihood 계산을 쉽게 하기 위함이다. 
+위에 Likelihood ratio에 log를 취하면 log (a/b) = log a - log b 가 되어서 단순 뺄셈만 하면 된다.
+
+## Score func
 
 ## 잡설 
 앞에서 새 가설로 바꿔가는 과정이 강화학습에서 policy를 업데이트하는 것과 같은거라고 생각해도 좋을 것이다.
@@ -30,7 +33,7 @@ Log Likelihood는 likelihood 계산을 쉽게 하기 위함이다.
 출처: http://www.aistudy.com/math/likelihood.htm
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc2NDI2MDcsLTcwODc5ODM4OSwtMT
-M2MTc2NDY3OSwxMzIwMjE5MzU5LC0xNjg2NDkwNTg3LC0zNjg4
-MTYzNjZdfQ==
+eyJoaXN0b3J5IjpbMTYzNTUzMzYsLTcwODc5ODM4OSwtMTM2MT
+c2NDY3OSwxMzIwMjE5MzU5LC0xNjg2NDkwNTg3LC0zNjg4MTYz
+NjZdfQ==
 -->

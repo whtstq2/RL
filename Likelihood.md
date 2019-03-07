@@ -13,11 +13,14 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.
 
 여기서 잠시, 확률은 [정문제](https://terms.naver.com/entry.nhn?docId=393305&ref=y)와 관련된 반면 likelihood은 [역문제](https://terms.naver.com/entry.nhn?docId=395229&ref=y)와 관련되어 있다. 확률은 무엇무엇 조건이 있을 때 사건이 있을 가능성이라면 likelihood는 사건이 일어났을 때 어떤 가설에 의한 것일 가능성인 것이다.
 
+## Log Likelihood
+Log Likelihood는 likelihood 계산이 
+
 앞에서 새 가설로 바꿔가는 과정이 강화학습에서 policy를 업데이트하는 것과 같은거라고 생각해도 좋을 것이다.
 
 출처: http://www.aistudy.com/math/likelihood.htm
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMTMyMTAxLC0xMzYxNzY0Njc5LDEzMj
-AyMTkzNTksLTE2ODY0OTA1ODcsLTM2ODgxNjM2Nl19
+eyJoaXN0b3J5IjpbLTE1NjkyNzAzODUsLTEzNjE3NjQ2NzksMT
+MyMDIxOTM1OSwtMTY4NjQ5MDU4NywtMzY4ODE2MzY2XX0=
 -->

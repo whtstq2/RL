@@ -29,10 +29,11 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.<br
 <h2 id="잡설">잡설</h2>
 <p>앞에서 새 가설로 바꿔가는 과정이 강화학습에서 policy를 업데이트하는 것과 같은거라고 생각해도 좋을 것이다.</p>
 <p>출처: <a href="http://www.aistudy.com/math/likelihood.htm">http://www.aistudy.com/math/likelihood.htm</a></p>
+ <p> :  <a href="https://wikidocs.net/7679"> https://wikidocs.net/7679</a></p>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTE0NDU5NiwxMTk3MDI1MjczXX0=
+eyJoaXN0b3J5IjpbMTE0NTc2NjQ4MCwxMTk3MDI1MjczXX0=
 -->

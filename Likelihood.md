@@ -13,7 +13,27 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.<br
 <p>가설의 불확실성을 평가하기 위해 흔히 사용되는 Bayes’ Theory에서는 이전 확률에 새로운 사건을 더해 다음 확률을 만든다. 그런데 이전 확률 즉, 베이스 가설에는 자의성이 들어갈 수 밖에 없는데 (모든 가설의 시작은 휴리스틱할 수 밖에 없다) 아예 배제 할 수는 없겠지만 최대한 줄이기 위해 likelihood를 사용한다.</p>
 <p>Likelihood = 관찰치를 얻을 확률을 최대화하는 모수의 값</p>
 
+<p> 최대우도법은 어떤 확률변수에서 표집한 값들을 토대로 그 확률변수의 모수를 구하는 방법이다. 어떤 모수가 주어졌을 때, 원하는 값들이 나올 가능도를 최대로 만드는 모수를 선택하는 방법이다. 점추정 방식에 속한다.
 
+즉, 우리는 절대로 모수를 알 수 없다. 따라서 표본(sample)을 통해서 모집단의 특성인 모수를 파악해야한다. 이 때, 우리가 가정하는 것은 각각의 표본을 추출할 때의 확률밀도함수 혹은 확률질량함수의 양상을 알고 있다는 것이다. (즉, 수학적으로 각 sample을 뽑을 확률밀도함수에 대해서 어떤 양상을 따를지 알고 있을 때 모수를 추정하고자 한다면 최대우도법을 쓸 수 있다.)</p>
+
+<p> 어떤 모수  θθ로 결정되는 확률변수들의 모임  Dθ=(X1,X2,⋯,Xn)Dθ=(X1,X2,⋯,Xn)이 있고  DθDθ의 확률밀도함수나 확률질량함수가  ff이고, 그 확률변수들에서 각각 값  x1,x2,⋯,xnx1,x2,⋯,xn을 얻었을 경우 가능도  L(θ)L(θ)는 다음과 같다.
+
+![](http://bit.ly/2kGjih1)
+
+여기에서 가능도를 최대로 만드는  θθ는
+
+![](http://bit.ly/2kT79AL)
+
+가 된다.
+
+이 때  X1,X2,⋯,XnX1,X2,⋯,Xn이 모두 독립적이고 같은 확률분포를 가지고 있다면  LL은 다음과 같이 표현이 가능하다.
+
+![](http://bit.ly/2kSUVrN)
+
+또한, 로그함수는 단조 증가하므로,  LL에 로그를 씌운 값의 최댓값은 원래 값  θ^θ^와 같고, 이 경우 계산이 비교적 간단해진다.
+
+![](http://bit.ly/2kGawzJ)</p>
 
 
 <h2 id="likelihood-ratio">Likelihood ratio</h2>
@@ -29,11 +49,11 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.<br
 <h2 id="잡설">잡설</h2>
 <p>앞에서 새 가설로 바꿔가는 과정이 강화학습에서 policy를 업데이트하는 것과 같은거라고 생각해도 좋을 것이다.</p>
 <p>출처: <a href="http://www.aistudy.com/math/likelihood.htm">http://www.aistudy.com/math/likelihood.htm</a></p>
- <p> :  <a href="https://wikidocs.net/7679"> https://wikidocs.net/7679</a></p>
+<p> :  <a href="https://wikidocs.net/7679"> https://wikidocs.net/7679</a></p>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTc2NjQ4MCwxMTk3MDI1MjczXX0=
+eyJoaXN0b3J5IjpbODUyOTc2MzcxLDExOTcwMjUyNzNdfQ==
 -->

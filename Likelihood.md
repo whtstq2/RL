@@ -12,12 +12,14 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.<br
 <p>베이스 가설이 있다고 치자 그런데 새로운 증거가 나타났다. 그래서 그 증거를 바탕으로 새 가설로 바꿨다. 그런데 과연 이 가설이 이전의 가설보다 나은 것인가?</p>
 <p>가설의 불확실성을 평가하기 위해 흔히 사용되는 Bayes’ Theory에서는 이전 확률에 새로운 사건을 더해 다음 확률을 만든다. 그런데 이전 확률 즉, 베이스 가설에는 자의성이 들어갈 수 밖에 없는데 (모든 가설의 시작은 휴리스틱할 수 밖에 없다) 아예 배제 할 수는 없겠지만 최대한 줄이기 위해 likelihood를 사용한다.</p>
 <p>Likelihood = 관찰치를 얻을 확률을 최대화하는 모수의 값</p>
-<p>1.4 두개 이상의 $\Theta가 있을 때
+<p>1.4 두개 이상의 $\theta$가 있을 때
 
-	• 하나의 모수에 대한 log likelihood 과정을 두 개 이상의 모수에 확장시키는 것은 대체로 표현(notation)의 문제이다.
-	
+• 하나의 모수에 대한 log likelihood 과정을 두 개 이상의 모수에 확장시키는 것은 대체로 표현(notation)의 문제이다.
+$$
+{theta } =( theta   _{1,}  theta   _{2} )
+$$
 
-<![if !supportEmptyParas]> <![endif]></p>
+
 <h2 id="likelihood-ratio">Likelihood ratio</h2>
 <p>likelihood의 비<br>
 <img src="http://www.aistudy.com/math/images/likelihood_htm_eqn17.gif" alt=""></p>
@@ -36,5 +38,5 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.<br
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4OTQwMzkwLDExOTcwMjUyNzNdfQ==
+eyJoaXN0b3J5IjpbMjA4MDc0MjY1NSwxMTk3MDI1MjczXX0=
 -->

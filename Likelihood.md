@@ -18,6 +18,10 @@ likelihood란 간단히 말해서 판단 척도로 사용되는 도구이다.<br
 $$
 {theta } =( theta   _{1,}  theta   _{2} )
 $$
+$$
+l (theta sub 1, theta sub 2 )
+$$
+
 
 
 <h2 id="likelihood-ratio">Likelihood ratio</h2>
@@ -38,5 +42,5 @@ $$
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDc0MjY1NSwxMTk3MDI1MjczXX0=
+eyJoaXN0b3J5IjpbLTI4OTcwNDg0MSwxMTk3MDI1MjczXX0=
 -->

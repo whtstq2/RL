@@ -8,11 +8,13 @@ MDP 문제는 가장 기본적인 문제이다.
 MDP는 수학적으로 이상적인 형태의 RL 문제이다. 앞으로 문제의 수학적인 구조에서 중요한 부분들을 설명할 것이다.
 예를 들어 return이나 value function, Bellman Equation 들이다.
 
-## 3.1 
+## 3.1 The Agent-Environment Interface
+
+MDPs는 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTk2Mzc1LDI3MTk2ODM0NSwtMTc3MD
-Q0Mzc5LC0xMjgxNDAxOTcwLDY4NjQyMDMyMCw3NjAxNjQzNzMs
-LTIxNzU4MDMxN119
+eyJoaXN0b3J5IjpbLTEwNTgxNzY2NTQsMjcxOTY4MzQ1LC0xNz
+cwNDQzNzksLTEyODE0MDE5NzAsNjg2NDIwMzIwLDc2MDE2NDM3
+MywtMjE3NTgwMzE3XX0=
 -->
